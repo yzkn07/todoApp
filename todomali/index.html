@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo mali</title>
+    <link rel="stylesheet" href="./asset/style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>todo listesi</h1>
+        </div>
+        <div class="divTodo">
+            <form action="" class="todoForm"  id="task">
+                <input type="text" name="todo" id="todo" class="todoInputText" placeholder="yeni görev ekle">
+                <input type="date" name="endDay" id="endDay" class="todoInputDate">
+                <button type="submit" class="addTodoButton">+</button>
+            </form>
+        </div>
+        <div class="todoList">
+            <div class="completedTodos">Tamamlandı (1)</div>
+            <ul class="todos">
+                <!-- <li class="todoItems">
+                    <div class="divTodoItem">
+                        <button class="completedTodoButton">switch off</button>
+                        <p class="todoItem">kitap oku</p>
+                        <p class="todoItemLeftDays">10 gün kaldı</p>
+                    </div>
+                    <div class="todoItemsButtons">
+                        <button class="edit">düzenle</button>
+                        <button class="delete">sil</button>
+                    </div>
+                </li> -->
+                <!-- <li class="todoItems completedTodo">
+                    <div class="divTodoItem">
+                        <button class="notCompletedTodoButton">switch on</button>
+                        <p class="todoItem">kitap oku</p>
+                        <p class="todoItemLeftDays">10 gün kaldı</p>
+                    </div>
+                    <div class="todoItemsButtons">
+                        <button class="edit">düzenle</button>
+                        <button class="delete">sil</button>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+        <div class="footer">
+            <button class="deleteCompleteds">tamamlananları sil</button>
+            <button class="deleteAllTodos">hepsini sil</button>
+        </div>
+    </div>
+    <script src="./asset/app/app.js"></script>
+</body>
+</html>

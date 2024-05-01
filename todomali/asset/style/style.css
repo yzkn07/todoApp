@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 90vh;
+    background-color: red;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 5%;
+    width: 100%;
+    background-color: #94a3b8;
+    border-radius: 10px 10px 0 0  ;
+}
+.header h1{
+    margin-left: 10px;
+    color: #faf5ff;
+}
+
+.divTodo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    border: 0px solid black;
+    border-width: 0 0 1px 0;
+
+}
+.todoForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.todoInputText{
+    width: 70%;
+    padding: 0;
+    border: 0;
+    font-size: 2rem;
+}
+.todoInputDate{
+    min-width: 120px;
+    width: 20%;
+    padding: 1rem 0;
+    border: 0px solid black;
+    border-width: 0px 1px 0px 1px;
+}
+.addTodoButton{
+    min-width: 50px;
+    width: 5%;
+    border: 0;
+    padding: 1rem 0;
+    background-color: transparent;
+}
+
+.todoList{
+    height: 65%;
+    width: 100%;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.todos{
+    margin: 10px;
+    list-style: none;
+}
+
+.todoItems{
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.completedTodos {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 40px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.divTodoItem{
+    width: 80%;
+}
+
+
+
+.todoItem {
+    margin-left: 20px;
+    display: inline-block;
+}
+.todoItemLeftDays{
+    display: block;
+    margin-left: 80px;
+}
+
+.todoItemsButtons{
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+}
+
+.notCompletedTodoButton{
+    margin-top: 20px;
+    background-color: greenyellow;
+    border: 0;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.edit{
+    height: 100%;
+    width: 50px;
+
+}
+.delete{
+    height: 100%;
+    width: 50px;
+}
+.completedTodoButton{
+    margin-top: 20px;
+    background-color: #020617;
+    color: white;
+    border: 0;
+    padding: 5px;
+    border-radius: 10px;
+}
+.completedTodo p{
+    text-decoration: line-through;
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    border: 0 solid black;
+    border-width: 1px 0 0 0 ;
+}
+
+.deleteCompleteds {
+    margin-left: 30px;
+    padding: 5px;
+    height: 50%;
+}
+
+.deleteAllTodos {
+    padding: 5px;
+    height: 50%;
+    margin-right: 30px;
+}
+
